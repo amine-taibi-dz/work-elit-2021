@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+D:\work-elit-2021\00-spring-core\.metadata\.plugins\org.eclipse.jdt.core
+397177108.index
+1730329067.index
+1175193496.index
+1629240431.index
+3372020941.index
+459337065.index
+3382216475.index
+4151096450.index

@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dz.acs</groupId>
+	<artifactId>spring-parent</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>spring-parent</name>
+	<description>spring-parent</description>
+	<properties>
+		<maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
+		<project.artifact.name>${project.artifactId}-${maven.build.timestamp}</project.artifact.name>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<compiler.target.version>1.8</compiler.target.version>
+		<compiler.source.version>1.8</compiler.source.version>
+		<spring.framework.version>4.3.25.RELEASE</spring.framework.version>
+	</properties>
+	<build>
+		<plugins>
+
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8 </target>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>
